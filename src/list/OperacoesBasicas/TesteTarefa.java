@@ -15,6 +15,21 @@ package list.OperacoesBasicas;
 
         lista1.obterDescricaoTarefas();
 
+        ConjuntoConvidados conjuntoConvidados01 = new ConjuntoConvidados();
+
+        conjuntoConvidados01.adicionarConvidado("Gibson",2023);
+        conjuntoConvidados01.adicionarConvidado("Pedro",2025);
+        conjuntoConvidados01.adicionarConvidado("Joao",2583);
+        conjuntoConvidados01.adicionarConvidado("Ricardo",1996);
+
+         System.out.println(conjuntoConvidados01.contarConvidados());
+
+         conjuntoConvidados01.removerCandidatoPorCodigo(2583);
+         conjuntoConvidados01.exibirConvidados();
+
+
+
+
 
 
 
