@@ -1,5 +1,5 @@
 package list.OperacoesBasicas;
- public class Main{
+ public class TesteTarefa {
      public static void main(String[] args) {
 
          ListaTarefa lista1 = new ListaTarefa();
